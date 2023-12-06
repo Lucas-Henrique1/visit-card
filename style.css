@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    justify-content:center ;
+}
+
+.card{
+    width: 300px;
+    height:650px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: rgba(46, 45, 45, 0.7);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.imagem {
+    display: flex;
+    justify-content:center ;
+}
+
+.mar{
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.text-main{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color:#fff ;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+.desc{
+    text-align: center;
+    color:#fff ;
+    font-weight: 300;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+
+}
+.box{
+    padding: 10px ,30px;
+    font-size: 15px;
+    font-weight: 68;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+    overflow: hidden;
+    color: #ffffff; 
+    cursor: pointer;
+    margin: 0.6rem;
+}
+.box:hover{
+    width: 200px;
+    background: #703d65;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 50px #b315917c;
+}
+
+.box:nth-child(2):hover{
+    background:#25d366;
+    box-shadow: 0 0 50px  #b315917c;
+}
+
+.box:nth-child(3):hover{
+    background: #1da1f2;
+    box-shadow: 0 0 50px  #b315917c;;
+}
+
+
+.navbar p{
+transform: translate(60px);
+}
+
+.box .icon{
+position: absolute;
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+border-radius: 50%;
+margin-right: 10px;
+transition: all 4s ease;
+}
+
+.instagram{
+    background-color: #c32aa3;
+}
+
+.whatsapp{
+    background-color: #25d366;
+}
+
+.twitter{
+    background-color: #1da1f2;
+}
+
+body{
+    background-image: url(./assets/fundo.jpg) ;
+}
